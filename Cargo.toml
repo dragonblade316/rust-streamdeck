@@ -11,6 +11,7 @@ edition = "2018"
 [features]
 util = [ "structopt", "simplelog", "humantime" ]
 default = [ "util" ]
+bundled = [ "hidapi/linux-static-libusb" ]
 
 [dependencies]
 hidapi = "1.2"
